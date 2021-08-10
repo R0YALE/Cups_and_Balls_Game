@@ -32,7 +32,7 @@ def check_guess(cups_list,user_guess):
 	
 
 while flag.lower()=='y':
-	os.system('clear')
+	os.system('cls') #change it to 'clear' for LINUX systems
 	shuffled_list = shuffle_list(cups_list)
 	guess = user_guess()
 	check_guess(shuffled_list,guess)
